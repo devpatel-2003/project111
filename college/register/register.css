@@ -1,0 +1,41 @@
+body{
+    position: relative;
+    background-color: lightcoral;
+    /* background: linear-gradient(#fc466b, #3f5efb); */
+    /* background-image: linear-gradient(#fc466b, #3f5efb); */
+    background-repeat: no-repeat;
+}
+
+h1{
+    position: relative;
+    font-family:cursive;
+    top: 10px;
+}
+
+.container input, select, button{
+    position: relative;
+    width: 3in;
+    height: 40px;
+    margin: 10px;
+    font-weight: 500;
+    font-size: 15px;
+    top: 10px;
+    transition: all 0,5s;
+}
+
+.container input:hover{
+    border-radius: 5px;
+    border-color: red;
+}
+
+.container{
+    position: relative;
+    left: 36.8%;
+    top: 40px;
+    background-color: #fff;
+    text-align: center;
+    box-sizing: content-box;
+    box-shadow: 5px 5px 5px 5px;
+    width: 400px;
+    height: 600px;
+}

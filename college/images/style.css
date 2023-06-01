@@ -1,0 +1,56 @@
+body{
+    background-color: lightskyblue;
+}
+
+#content{
+    text-align: center;
+    width: 35%;
+    margin: 20px auto;
+    background-color: #fff;
+    border: 1px solid #cbcbcb;
+    box-shadow: 5px 5px 5px 5px;
+}
+form{
+    width: 50%;
+    margin: 20px auto;
+}
+form div{
+    margin-top: 5px;
+}
+#img_div{
+    width: 80%;
+    padding: 5px;
+    margin: 15px auto;
+    border: 1px solid #cbcbcb;
+}
+#img_div:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+img{
+    float: left;
+    margin: 5px;
+    width: 300px;
+    height: 140px;
+}
+
+.btn{
+    align-self: center;
+    width: 2in;
+    height: 40px;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: lightsalmon;
+}
+
+textarea{
+    position: relative;
+    right: 22%;
+    width: 52ch;
+}
+
+canvas{
+    border: 5px solid black;
+}

@@ -1,0 +1,103 @@
+body{
+    /* background-image: linear-gradient(45deg,#fc5c7d, #6a82fb); */
+    /* background-color: lightskyblue; */
+    background-image: src("https://oncampusadvertising.com/wp-content/uploads/2021/02/College-Media-Platforms.jpeg");
+}
+
+nav {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    float: left;
+  }
+  
+  nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  nav li a:hover {
+    background-color: #111;
+  }
+  
+  nav .active {
+    background-color: #4CAF50;
+  }
+  
+  /* .container {
+    position: relative;
+    top: 50px;
+    max-width: 500px;
+    height: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+  } */
+  
+  h1 {
+    text-align: center;
+    font-size: 60px;
+    font-family: cursive;
+  }
+  
+  .container a{
+    position: relative;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    padding: 25px;
+    top: 30px;
+    color: white;
+    background-color: black;
+    transition: all 0.5s;
+    text-decoration: none;
+  }
+  .container a:hover{
+    color: black;
+    background-color: red;
+  }
+
+  /* form {
+    text-align: center;
+  }
+  
+  input[type="file"] {
+    margin: 20px 0;
+  }
+  
+  input[type="submit"] {
+    position: relative;
+    background-color: #4CAF50;
+    color: white;
+    top: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+
+  textarea{
+    width: 500px;
+    height: 100px;
+  } */
+
+
+  

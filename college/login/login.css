@@ -1,0 +1,45 @@
+body{
+    background-color: lightcoral;
+}
+
+h1{
+    font-family: cursive;
+}
+
+input{
+    width:3in;
+    height: 40px;
+    margin: 10px;
+}
+
+button{
+    position: relative;
+    width: 3in;
+    height: 40px;
+    margin: 10px;
+    font-weight: 600;
+    font-size: 15px;
+    top: 30px;
+}
+
+p{
+    position: relative;
+    top: 30px;
+}
+
+a{
+    position: relative;
+    top: 30px;
+}
+
+.main{
+    position: relative;
+    top: 50px;
+    left: 35%;
+    background-color: #fff;
+    text-align: center;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 5px 5px;
+    width: 450px;
+    height: 400px;
+}
